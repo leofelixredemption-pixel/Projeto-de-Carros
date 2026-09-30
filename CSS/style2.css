@@ -1,0 +1,112 @@
+
+body{
+
+/* Estilo geral do fundo e da tipografia da página inicial. */
+background-color: gray;
+font-family: Arial, Helvetica, sans-serif;
+
+color: black;
+}
+
+
+img{
+/* Dimensionamento e contexto de posicionamento das imagens. */
+width: 500px;
+position: relative;
+
+}
+
+
+
+
+
+main img{
+/* Posiciona e arredonda a imagem principal do conteúdo. */
+    position: relative;
+margin-left: 500px;
+border-radius: 25px;
+bottom: 63px;
+}
+
+
+
+
+
+main{
+/* Cria o painel central com fundo em degradê e espaço interno. */
+position: relative;
+    width: 1000px;
+background-image: linear-gradient(to right , rgb(78, 3, 3) , black );
+margin: auto;
+border-radius: 25px;
+padding-top: 1px;
+padding-right: 0px;
+padding-bottom: 205px;
+padding-left: 20px;
+
+
+bottom: -25px;
+
+}
+
+main h3{
+/* Posiciona e estiliza o título de boas-vindas. */
+position: relative;
+top: 210px;
+font-size: 20px;
+color: white;
+
+
+}
+
+
+
+main p {
+/* Formata o texto introdutório e o posiciona ao lado da imagem. */
+text-align: justify;
+font-size: 18px;
+line-height: 18px;
+word-wrap: break-word;
+margin-right: 575px;
+margin-top: -520px;
+position: relative;
+font-style: normal;
+font-weight: bolder;
+color: white;
+
+}
+
+button a {
+/* Remove o sublinhado e define a cor dos links dentro dos botões. */
+text-decoration: none;
+color: white;
+}
+button{
+/* Define aparência, tamanho e posição dos botões de navegação. */
+text-align: center;
+padding: 14px 30px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+background: #000000;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+margin-bottom: -15px;
+margin: auto;
+position: relative;
+top: 35px;
+
+}
+
+
+button:hover{
+/* Realça o botão quando o ponteiro passa sobre ele. */
+background-color: gray;
+    transform: scale(1.05);
+
+
+}
+
+

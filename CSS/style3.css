@@ -1,0 +1,369 @@
+
+*{
+/* Remove os espaçamentos padrão dos elementos. */
+margin: 0px;
+padding: 0px;
+
+}
+
+
+button a {
+/* Formatação dos links exibidos dentro dos botões. */
+text-decoration: none;
+color: white;
+}
+button{
+text-align: right;
+padding: 15px 5px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+background: #042a33;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+
+margin-bottom: -15px;
+
+
+}
+
+
+
+
+button:hover{
+/* Altera a cor e amplia levemente o botão durante o hover. */
+background-color: gray;
+    transform: scale(1.05);
+
+
+}
+
+header{
+/* Fundo e espaçamento vertical da área de navegação. */
+min-width: 120px;
+background-color: rgb(218, 224, 230);
+padding-top: 35px;
+padding-bottom: 35px;
+
+
+
+
+}
+body{
+background-color: gray;
+
+
+}
+
+
+.botoes{
+/* Alinha os controles de navegação à direita em uma linha. */
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+margin-right: 300px;
+
+}
+
+
+
+
+.img1{
+/* Dimensiona e posiciona o logotipo no cabeçalho. */
+    width: 135px;
+    margin-bottom: -73px;
+    margin-left: 295px;
+
+
+}
+
+main h1 {
+/* Aparência comum aos títulos dos perfis. */
+position: relative;
+
+top: 75px;
+
+color: white;
+text-shadow: 4px 1px 3px black;
+
+}
+
+#personagens p {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+/* Define a largura, o fundo e o espaçamento do conteúdo principal. */
+
+    width: 1000px;
+background-color: #1a1919;
+margin: auto;
+border-radius: 10px;
+border-style: solid;
+
+
+padding-top: 2px;
+padding-right: 25px;
+padding-bottom: 140px;
+padding-left: 1px;
+}
+
+
+
+
+.div1{
+/* Bloco de introdução com fundo próprio e espaço para seus elementos. */
+width: 1000px;
+background-color: #0dabc7;
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+}
+
+
+.div1 img {
+
+width: 480px;
+
+position: relative;
+
+bottom: -155px;
+left: 514px;
+
+
+}
+
+main p {
+/* Estilo, alinhamento e posição dos parágrafos do conteúdo. */
+position: relative;
+
+text-shadow: 4px 1px 3px black;
+left: -200px;
+font-size: 18px;
+line-height: 1.5;
+ color: #262626;
+max-width: 600px;
+margin: 0 auto;
+    text-align: justify;
+bottom: 55px;
+color: white;
+letter-spacing: 0.1px;
+
+}
+
+#personagens{
+/* Organiza os personagens em uma linha flexível quando este painel é usado. */
+display: flex;
+justify-content: flex-end;
+gap: 25px;
+
+
+}
+
+#Relampago p{
+/* Ajusta a posição e o alinhamento da descrição de McQueen. */
+position: relative;
+left: 200px;
+text-align: justify;
+
+}
+
+#Relampago h1{
+position: relative;
+right: -365px;
+
+}
+
+.img2{
+/* Ajusta a posição da imagem de McQueen. */
+position: relative;
+top: 115px;
+
+}
+
+#Relampago{
+/* Fundo, largura e espaçamento da seção de McQueen. */
+width: 1000px;
+background-image: linear-gradient(to bottom , #C8102E  , #171717);
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+
+
+}
+
+#Mater h1{
+/* Posiciona o título da seção de Mate. */
+position: relative;
+right: -365px;
+top: 110px;
+
+
+}
+
+#Mater p{
+/* Ajusta a posição e o alinhamento da descrição de Mate. */
+position: relative;
+left: 200px;
+text-align: justify;
+bottom:  170px;
+}
+
+
+#Mater{
+/* Fundo, largura e espaçamento da seção de Mate. */
+width: 1000px;
+background-image: linear-gradient(to bottom , #795548 , #C9A227);
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+
+
+}
+
+.img3{
+/* Ajusta a posição da imagem de Mate. */
+position: relative;
+bottom: -80px;
+left: 20px;
+}
+
+
+
+#Doc{
+/* Fundo, largura e espaçamento da seção de Doc Hudson. */
+
+width: 1000px;
+background-image: linear-gradient(to bottom , #1E3A5F , #6FA3C8  );
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+
+}
+
+#Doc h1{
+/* Posiciona o título da seção de Doc Hudson. */
+position: relative;
+right: -365px;
+top: 110px;
+
+
+}
+
+#Doc p{
+/* Ajusta a posição e o alinhamento da descrição de Doc Hudson. */
+position: relative;
+left: 200px;
+text-align: justify;
+bottom:  25px;
+}
+
+.img4{
+/* Posicionamento compartilhado por imagens dos perfis seguintes. */
+    position: relative;
+top: 120px;
+
+
+}
+
+
+#Sally {
+/* Fundo, largura e espaçamento da seção de Sally. */
+width: 1000px;
+background-image: linear-gradient(to bottom , #1E3A5F , #6FA3C8  );
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+
+
+}
+
+#Sally h1{
+/* Posiciona o título da seção de Sally. */
+position: relative;
+right: -365px;
+top: 110px;
+
+
+}
+
+#Sally p{
+/* Ajusta a posição e o alinhamento da descrição de Sally. */
+position: relative;
+left: 200px;
+text-align: justify;
+bottom:  60px;
+}
+
+#King {
+/* Fundo, largura e espaçamento da seção do Rei. */
+width: 1000px;
+background-image: linear-gradient(to bottom , #3498DB  , #F5F5F5  );
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+
+
+}
+
+#King h1{
+/* Posiciona o título da seção do Rei. */
+position: relative;
+right: -365px;
+top: 110px;
+
+
+}
+
+#King p{
+/* Ajusta a posição e o alinhamento da descrição do Rei. */
+position: relative;
+left: 200px;
+text-align: justify;
+bottom:  60px;
+}
+
+#Chick{
+/* Fundo, largura e espaçamento da seção de Chick Hicks. */
+width: 1000px;
+background-image: linear-gradient(to bottom ,  #388E3C  , #263238  );
+padding-top: 2px;
+padding-right: 13px;
+padding-bottom: 170px;
+padding-left: 11px;
+
+
+}
+
+#Chick h1{
+/* Posiciona o título da seção de Chick Hicks. */
+position: relative;
+right: -365px;
+top: 110px;
+
+
+}
+
+#Chick p{
+/* Ajusta a posição e o alinhamento da descrição de Chick Hicks. */
+position: relative;
+left: 200px;
+text-align: justify;
+bottom:  60px;
+}

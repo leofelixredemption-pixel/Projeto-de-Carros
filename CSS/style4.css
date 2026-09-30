@@ -1,0 +1,530 @@
+*{
+/* Remove os espaçamentos padrão dos elementos. */
+margin: 0px;
+padding: 0px;
+
+}
+
+
+button a {
+/* Formatação dos links dentro dos botões. */
+text-decoration: none;
+color: white;
+}
+button{
+/* Tamanho, cor e interação dos botões usados nos controles da página. */
+text-align: right;
+padding: 15px 5px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+background: rgb(8, 121, 121);
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+
+margin-bottom: -15px;
+
+
+}
+
+#menu{
+/* Aparência e posicionamento do menu que alterna as seções de conteúdo. */
+    position: relative;
+
+gap: 45px;
+border: none;
+cursor: pointer;
+color: white;
+}
+
+
+
+button:hover{
+/* Realce dos botões quando o ponteiro passa sobre eles. */
+background-color: gray;
+    transform: scale(1.05);
+
+
+}
+
+header{
+/* Fundo e espaçamento da área de navegação. */
+min-width: 120px;
+background-color: rgb(218, 224, 230);
+padding-top: 35px;
+padding-bottom: 35px;
+
+
+
+
+}
+body{
+/* Cor de fundo geral do documento. */
+background-color: gray;
+
+
+}
+
+
+.botoes{
+/* Distribui os botões de navegação em linha, alinhados à direita. */
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+margin-right: 300px;
+
+}
+
+html , body{
+/* Faz o documento ocupar a área disponível da janela. */
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+
+
+}
+
+
+main{
+/* Define o painel principal, o fundo e o preenchimento. */
+width: 100%;
+min-height: 100vh;
+background-color: rgb(0, 25, 48);
+box-sizing: border-box;
+padding: 20px;
+
+
+}
+
+main h3 {
+/* Formatação do título introdutório da página. */
+position: relative;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 1.9em;
+color: black;
+
+
+}
+
+
+main h1 {
+/* Aparência dos títulos principais da página. */
+position: relative;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 2.5em;
+color: black;
+
+
+}
+
+main p {
+/* Tipografia, cor e alinhamento dos parágrafos principais. */
+position: relative;
+color: white;
+text-align: justify;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+}
+
+.img2{
+
+position: relative;
+
+
+}
+
+
+.img1{
+/* Tamanho e posição do logotipo do cabeçalho. */
+    width: 135px;
+    margin-bottom: -73px;
+    margin-left: 295px;
+
+
+}
+
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+#n1 img {
+/* Posiciona e arredonda a imagem de apresentação. */
+    position: relative;
+margin: auto;
+left: 540px;
+border-radius: 45px;
+}
+
+#n1 p {
+/* Formatação do texto que apresenta a página. */
+    position: relative;
+margin: auto;
+text-align: justify;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+text-decoration: underline;
+
+
+}
+
+#Sinopse{
+/* Painel de sinopse, oculto até ser escolhido no menu. */
+
+    width: 100%;
+
+background-image: linear-gradient(to top , rgb(104, 7, 7) , rgb(17, 9, 9));
+display: none;
+box-sizing: border-box;
+padding: 20px;
+
+border-radius: 25px;
+
+}
+
+#comemorativo{
+/* Painel comemorativo, inicialmente oculto até a seleção no menu. */
+  width: 100%;
+display: none;
+background-image: linear-gradient(to top , rgb(104, 7, 7) , rgb(17, 9, 9));
+border-radius: 25px;
+box-sizing: border-box;
+padding: 20px;
+ 
+    
+}
+
+#comemorativo h2 {
+/* Posição e aparência do título comemorativo. */
+ position: relative;
+text-align: center;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 4px 2px black;
+top: 105px;
+right: 485px;
+
+}
+
+#comemorativo p {
+/* Posição e formatação do texto comemorativo. */
+    position: relative;
+color: white;
+text-align: left;
+font-weight: bolder;
+font-size: 16px;
+font-style: normal;
+left: 295px;
+bottom: 555px;
+text-align: justify;
+
+}
+#comemorativo ul {
+/* Estilo da lista de informações comemorativas, se exibida. */
+    color: white;
+    position: relative;
+      left: 75px;
+      font-weight: bolder;
+      left: 315px;
+bottom: 510px;
+}
+
+
+
+#comemorativo img {
+/* Posiciona a imagem do painel comemorativo. */
+position: relative;
+left: 1100px;
+
+
+}
+
+
+
+
+
+
+
+#Sinopse h2{
+/* Posição e aparência do título da sinopse. */
+    position: relative;
+text-align: center;
+color: white;
+font-size: 2.0em;
+text-shadow: 5px 4px 2px black;
+top: 180px;
+right: 485px;
+}
+
+
+#Sinopse p {
+/* Posição e formatação do texto da sinopse. */
+    position: relative;
+color: white;
+text-align: left;
+font-weight: bolder;
+font-size: 16px;
+font-style: normal;
+left: 295px;
+bottom: 465px;
+text-align: justify;
+
+}
+#Sinopse ul {
+/* Cor, posição e peso da lista de dados do filme. */
+    color: white;
+    position: relative;
+      left: 75px;
+      font-weight: bolder;
+      left: 315px;
+bottom: 465px;
+}
+
+
+
+#Sinopse img {
+/* Posiciona a imagem da sinopse. */
+position: relative;
+left: 1200px;
+
+
+}
+
+
+#momentos{
+/* Painel de momentos marcantes, oculto até ser selecionado no menu. */
+ width: 100%;
+
+ /*background-image: linear-gradient(to top , rgb(104, 7, 7) , rgb(17, 9, 9));
+*/
+background-color: white;
+display: none;
+
+box-sizing: border-box;
+padding: 20px;
+
+   
+
+
+}
+
+.div1{
+/* Aparência do primeiro bloco de momento marcante. */
+background-color: rgb(218, 224, 230);
+width: 100%;
+border-radius: 15px;
+}
+
+
+
+.div1 img{
+/* Posiciona e arredonda a imagem do primeiro momento. */
+position: relative;
+border-radius: 15px;
+left: 1025px;
+bottom: -90px;
+}
+
+
+.div1 h3 {
+/* Posiciona o título do primeiro momento. */
+position: relative;
+right: 575px;
+
+top: 75px;
+
+}
+
+.div1 p {
+/* Posiciona e formata a descrição do primeiro momento. */
+position: relative;
+color: black;
+left: 230px;
+bottom: 310px;
+text-decoration: underline;
+text-align: justify;
+font-weight: bolder;
+}
+
+
+.div2 {
+/* Aparência do segundo bloco de momento marcante. */
+background-color: rgb(218, 224, 230);
+width: 100%;
+border-radius: 15px;
+padding-top: 145px;
+
+}
+
+
+.div2 img{
+/* Posiciona e arredonda a imagem do segundo momento. */
+position: relative;
+border-radius: 15px;
+left: 1045px;
+
+bottom: -15px;
+
+}
+
+.div2 h3 {
+/* Posiciona o título do segundo momento. */
+position: relative;
+left: -420px;
+
+bottom: 15px;
+
+}
+
+.div2 p {
+/* Posiciona e formata a descrição do segundo momento. */
+position: relative;
+color: black;
+left: 275px;
+bottom: 305px;
+text-decoration: underline;
+text-align: justify;
+font-weight: bolder;
+}
+
+
+.div3{
+/* Aparência do terceiro bloco de momento marcante. */
+
+background-color: rgb(218, 224, 230);
+width: 100%;
+border-radius: 15px;
+padding-top: 145px;
+
+}
+
+.div3 h3 {
+/* Posiciona o título do terceiro momento. */
+position: relative;
+left: -420px;
+
+bottom: 15px;
+
+
+}
+
+.div3 p {
+/* Posiciona e formata a descrição do terceiro momento. */
+position: relative;
+color: black;
+left: 275px;
+bottom: 370px;
+text-decoration: underline;
+text-align: justify;
+font-weight: bolder;
+
+}
+
+.div3 img {
+/* Posiciona e arredonda a imagem do terceiro momento. */
+position: relative;
+border-radius: 15px;
+left: 1120px;
+
+bottom: 50px;
+
+}
+
+.div4{
+/* Aparência do quarto bloco de momento marcante. */
+
+background-color: rgb(218, 224, 230);
+width: 100%;
+border-radius: 15px;
+padding-top: 145px;
+
+}
+
+.div4 h3 {
+/* Posiciona o título do quarto momento. */
+position: relative;
+left: -420px;
+
+bottom: 5px;
+
+
+}
+
+.div4 p {
+/* Posiciona e formata a descrição do quarto momento. */
+position: relative;
+color: black;
+left: 395px;
+bottom: 295px;
+text-decoration: underline;
+text-align: justify;
+font-weight: bolder;
+}
+
+.div4 img {
+/* Posiciona e arredonda a imagem do quarto momento. */
+position: relative;
+border-radius: 15px;
+left: 1015px;
+
+bottom: 55px;
+}
+
+
+
+.div5{
+/* Aparência do quinto bloco de momento marcante. */
+
+background-color: rgb(218, 224, 230);
+width: 100%;
+border-radius: 15px;
+padding-top: 145px;
+
+}
+
+.div5 h3 {
+/* Posiciona o título do quinto momento. */
+position: relative;
+left: -420px;
+
+bottom: 45px;
+
+
+}
+
+.div5 p {
+/* Posiciona e formata a descrição do quinto momento. */
+position: relative;
+color: black;
+left: 395px;
+bottom: 295px;
+text-decoration: underline;
+text-align: justify;
+font-weight: bolder;
+}
+
+.div5 img {
+/* Posiciona e arredonda a imagem do quinto momento. */
+position: relative;
+border-radius: 15px;
+left: 1075px;
+
+top: 1px;
+}
+
+#momentos{
+    background-color: #1a1919;
+}
+
+
+
+

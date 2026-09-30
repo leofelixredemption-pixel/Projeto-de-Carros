@@ -1,0 +1,160 @@
+*{
+/* Remove os espaçamentos padrão para iniciar o layout de forma consistente. */
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+body{
+/* Define a tipografia e o fundo escuro da página. */
+font-family: Arial, Helvetica, sans-serif;
+
+    background: #171717;
+}
+
+
+
+
+#img{
+/* Organiza horizontalmente o grupo de imagens. */
+display: flex;
+gap: 25px;
+margin-left: 150px;
+}
+
+
+.img1{
+    width: 135px;
+    text-align: left;
+}
+
+#img2{
+/* Dimensiona individualmente as imagens usadas no layout. */
+width: 295px;
+
+}
+
+#img3{
+    width: 295px;
+}
+
+#img4{
+    width: 295px;
+}
+
+button{
+/* Aparência e dimensões compartilhadas pelos botões. */
+text-align: left;
+padding: 14px 30px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+background: #310505;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s;
+margin-left: 15px;
+
+}
+
+
+button:hover{
+/* Realce visual do botão durante o hover. */
+background-color: gray;
+    transform: scale(1.05);
+
+
+}
+
+
+header h1{
+color: white;
+
+
+}
+
+
+
+header{
+/* Fundo em degradê e espaço reservado ao cabeçalho. */
+min-width: 120px;
+margin-bottom: 15px;
+
+background-image: linear-gradient(to right , rgb(143, 6, 6) , rgb(0, 0, 0));
+
+}
+
+#personagens{
+/* Mantém o painel de personagens oculto por padrão. */
+    display: none;
+}
+
+#personagens  {
+/* Define o tamanho, fundo e espaçamento do painel de personagens. */
+width: 1200px;
+background-image: linear-gradient(to bottom , rgb(143, 6, 6) , rgb(0, 0, 0));
+margin: auto;
+padding-right: 25px;
+padding-left: 15px;
+border-radius: 25px;
+font-size: 18px;
+
+
+
+}
+
+#personagens p{
+/* Ajusta cor e alinhamento do texto dos personagens. */
+color: white;
+text-align: justify;
+}
+
+
+#personagens h1{
+/* Centraliza e destaca o título dos personagens. */
+text-align: center;
+color: white;
+text-shadow: 5px 4px 1px black;
+font-size: 2.5em;
+}
+
+
+
+
+
+#sinopse{
+/* Define o tamanho, fundo e espaçamento do painel de sinopse. */
+width: 1200px;
+background-image: linear-gradient(to bottom , rgb(143, 6, 6) , rgb(0, 0, 0));
+margin: auto;
+padding-right: 25px;
+padding-left: 15px;
+border-radius: 25px;
+font-size: 18px;
+}
+
+
+#sinopse ul li{
+/* Cor e recuo dos itens com dados do filme. */
+color: white;
+margin-left: 25px;
+
+}
+
+#sinopse p{
+/* Cor e alinhamento do texto da sinopse. */
+color: white;
+text-align: justify;
+}
+
+
+#sinopse h1{
+/* Destaque visual do título da sinopse. */
+text-align: center;
+color: white;
+text-shadow: 5px 4px 1px black;
+font-size: 2.5em;
+}
+
